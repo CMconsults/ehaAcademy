@@ -1,0 +1,474 @@
+@font-face {
+  src: url("open-sans/OpenSans-SemiBold.ttf");
+  font-weight: 600;
+  font-family: OpenSans;
+}
+@font-face {
+  src: url("open-sans/OpenSans-Regular.ttf");
+  font-weight: 400;
+  font-family: OpenSans;
+}
+@font-face {
+  src: url("open-sans/OpenSans-Light.ttf");
+  font-weight: 300;
+  font-family: OpenSans;
+}
+
+body {
+  background: #eff8ff;
+}
+
+:root {
+  --dark-color: #333333;
+  --dark-color2: #000000;
+  --white-color: #ffffff;
+  --light-color: #aaaaaa;
+  --cyan-color: #eff8fe;
+  --blue-color: #0090fc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body-background {
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background: #eff8ff;
+  padding: 16rem;
+  padding-top: 3rem;
+}
+.switch {
+  position: absolute;
+  left: 1130px;
+  top: 70px;
+}
+#switch {
+  position: relative;
+  top: 0px;
+}
+#arrow {
+  position: relative;
+  top: 510px;
+  right: 0px;
+}
+#polygon {
+  position: relative;
+  right: -15px;
+}
+#arrow figcaption {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #0090fc;
+}
+#container {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  height: 1546px;
+}
+
+#container.dark {
+  background-color: #000000;
+  --dark-color: #ffffff;
+  --dark-color2: #ffffff;
+}
+
+.head img {
+  position: relative;
+  left: 1.5rem;
+  top: 1rem;
+  margin-right: 3rem;
+}
+.head h1 {
+  position: relative;
+  top: 0.2rem;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  color: var(--dark-color);
+  margin: 0px;
+  padding-right: 0px;
+  display: inline;
+}
+#txt {
+  font-family: OpenSans;
+  font-weight: 300;
+  font-style: normal;
+}
+.head h3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: right;
+  color: var(--dark-color);
+  margin-bottom: 0px;
+}
+.contact {
+  position: relative;
+  top: -3.5rem;
+  right: 1.5rem;
+  display: inline;
+}
+.contact a {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  float: right;
+  color: #0090fc;
+  text-decoration: none;
+}
+.head hr {
+  position: relative;
+  top: -3rem;
+  border: 1px solid #e5e5e5;
+  width: 771px;
+}
+.intro span {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--dark-color2);
+  position: relative;
+  left: 250px;
+  top: -43px;
+}
+.intro hr {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  width: 771px;
+}
+.intro h3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0090fc;
+  position: relative;
+  left: 38px;
+}
+.interest span {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--dark-color2);
+  position: relative;
+  left: 250px;
+}
+.interest h3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0090fc;
+  position: relative;
+  left: 38px;
+  top: 40px;
+}
+.interest hr {
+  position: relative;
+  top: 4rem;
+  border: 1px solid #e5e5e5;
+  width: 771px;
+}
+.logo {
+  position: relative;
+  top: 25px;
+  left: 13rem;
+  float: left;
+}
+
+.logo img {
+  height: 73px;
+}
+.skills h3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0090fc;
+  position: relative;
+  top: 110px;
+  left: 38px;
+}
+figcaption {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--dark-color2);
+}
+.skills hr {
+  position: relative;
+  top: 4rem;
+  border: 1px solid #e5e5e5;
+  width: 771px;
+}
+.education #edu-txt {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0090fc;
+  position: relative;
+  top: 110px;
+  left: 38px;
+}
+#edu-txt1 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--dark-color2);
+  margin: -7px;
+}
+#edu-txt2 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--dark-color2);
+  margin: -7px;
+}
+#edu-txt3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #aaaaaa;
+  margin: -7px;
+  margin-bottom: 3rem;
+}
+.date {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: right;
+  color: #aaaaaa;
+  position: relative;
+  top: 10px;
+  right: 35px;
+  float: right;
+}
+#date2 {
+  position: relative;
+  top: 5px;
+}
+
+.education #a {
+  position: relative;
+  top: 75px;
+  left: 245px;
+}
+.education #b {
+  position: relative;
+  top: 70px;
+  left: 245px;
+}
+.education hr {
+  position: relative;
+  top: 3rem;
+  border: 1px solid #e5e5e5;
+  width: 771px;
+}
+.experience #exp-txt {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0090fc;
+  position: relative;
+  top: 100px;
+  left: 38px;
+}
+.experience #c {
+  position: relative;
+  left: 245px;
+  top: 65px;
+}
+#exp-txt1 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--dark-color2);
+  margin: -7px;
+}
+#exp-txt2 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--dark-color2);
+  margin: -7px;
+}
+#exp-txt3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #aaaaaa;
+  margin: -7px;
+  margin-bottom: 3rem;
+}
+.experience #date {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: right;
+  color: #aaaaaa;
+  position: relative;
+  right: 35px;
+  float: right;
+}
+.experience p {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: var(--dark-color2);
+  position: relative;
+  top: 50px;
+  left: 235px;
+}
+.experience hr {
+  position: relative;
+  top: 5rem;
+  border: 1px solid #e5e5e5;
+  width: 771px;
+}
+.project h3 {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0090fc;
+  position: relative;
+  top: 140px;
+  left: 38px;
+}
+.project span a {
+  text-decoration: none;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #0090fc;
+  position: relative;
+  top: 100px;
+  left: 235px;
+}
+.project hr {
+  position: relative;
+  top: 17rem;
+  border: 1px solid #e5e5e5;
+  width: 771px;
+}
+
+.scroll {
+  position: fixed;
+  margin-top: -100px;
+  margin-left: -10px;
+}
+
+/* .scroll.active{
+    bottom:32px;
+  pointer-events: auto;
+  opacity:0;
+} */
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.label {
+  background-color: rgba(11, 19, 53, 0.13);
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 18px;
+  width: 32px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: var(--light-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 14px;
+  width: 14px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.label .ball.dark {
+  background-color: var(--blue-color);
+}
+.checkbox:checked + .label .ball {
+  transform: translateX(14px);
+}
+
+.mode {
+  list-style: none;
+  position: fixed;
+}
+
+.mode li {
+  display: inline-block;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.switch p {
+  color: #0090fc;
+  text-align: center;
+  margin-top: 5px;
+  font-family: OpenSans;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.head img {
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
